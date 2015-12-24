@@ -1,0 +1,23 @@
+PODS:
+  - ImageLoader (0.5.1)
+  - SwiftHTTP (0.9.5)
+
+DEPENDENCIES:
+  - ImageLoader
+  - SwiftHTTP (from `https://github.com/daltoniam/SwiftHTTP`, branch `swift-2-bc`)
+
+EXTERNAL SOURCES:
+  SwiftHTTP:
+    :branch: swift-2-bc
+    :git: https://github.com/daltoniam/SwiftHTTP
+
+CHECKOUT OPTIONS:
+  SwiftHTTP:
+    :commit: e4a46881a90fd06336f21e9d70902101d8d4c88a
+    :git: https://github.com/daltoniam/SwiftHTTP
+
+SPEC CHECKSUMS:
+  ImageLoader: 3a6a3f076503a3a51142af7d0a375bd37cdc7e69
+  SwiftHTTP: cd7b248bc07db02926ff54cf19b580b78f7abfa1
+
+COCOAPODS: 0.38.2
